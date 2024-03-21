@@ -25,6 +25,7 @@ namespace pipobit {
     ];
 
     //% block="Set $color traffic light on pin $p"
+    //% block.loc.es="Establecer semáforo $color en pin $p"
     //% group="Traffic light"
     //% weight=20
     //% color.fieldEditor="gridpicker"
@@ -38,6 +39,7 @@ namespace pipobit {
     }
 
     //% block="Set $color traffic light to $state"
+    //% block.loc.es="Establecer semáforo $color a $state"
     //% group="Traffic light"
     //% weight=10
     //% color.fieldEditor="gridpicker"
@@ -48,7 +50,8 @@ namespace pipobit {
     }
 
     //% block="Read temperature from pin $p || in $unit"
-    //% group="Ambient sensing"
+    //% block.loc.es="Leer temperatura del pin $p || en $unidad"
+    //% group="Environment sensor"
     //% unit.defl=TemperatureUnits.celsius
     //% unit.fieldEditor="gridpicker"
     //% unit.fieldOptions.width=220
@@ -67,7 +70,8 @@ namespace pipobit {
     }
 
     //% block="Read light from pin $p"
-    //% group="Ambient sensing"
+    //% block.loc.es="Leer luz del pin $p"
+    //% group="Environment sensor"
     //% p.fieldEditor="gridpicker"
     //% p.fieldOptions.width=220
     //% p.fieldOptions.columns=3
