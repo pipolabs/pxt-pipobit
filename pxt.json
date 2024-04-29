@@ -4,8 +4,7 @@
     "description": "Blocks to simplify using Pipo:bit products in PXT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "radio": "*"
     },
     "files": [
         "README.md",
